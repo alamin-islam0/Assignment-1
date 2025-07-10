@@ -69,7 +69,7 @@ nav .logo{
     width: 100%;
     height: 698px;
     margin-top: -180px;
-    background-image: url("/assets/Hero-bg.png");
+    background-image: url("assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
