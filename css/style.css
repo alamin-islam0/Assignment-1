@@ -8,8 +8,9 @@
  * Remove the margin in all browsers.
  */
 
-body {
+* {
   margin: 0;
+  padding: 0;
 }
 
 /* Shared style */
@@ -35,6 +36,12 @@ body {
 
 .main-button:hover{
     background-color: #F0C40F;
+}
+
+.second-heading-style{
+    font-weight: 700;
+    font-size: 42px;
+    color: #252432;
 }
 
 /* Nav style */
@@ -69,6 +76,7 @@ nav .logo{
 
 .banner-child{
     display: flex;
+    gap: 40px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -84,4 +92,28 @@ nav .logo{
 
 /* Webflow conf section */
 
-.
+.webflow-conf{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 100px 100px;
+}
+
+.webflow-conf-main{
+    display: flex;;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.webflow-conf-p{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    width: 517px;
+    padding: 20px 0px 20px 0;
+}
+
+.webflow-conf-img{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
